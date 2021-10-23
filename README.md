@@ -13,5 +13,5 @@ docker run -it buyer-resist run.py
 You can run the script using:
 
 ```
-docker run -it -v "$(pwd):/usr/src/app" buyer-resist run.py
+docker run --rm -it -v "$(pwd):/usr/src/app" buyer-resist run.py
 ```
